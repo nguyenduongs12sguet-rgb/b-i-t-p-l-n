@@ -7,7 +7,7 @@ from sklearn.ensemble import RandomForestRegressor
 # --- 1. CẤU HÌNH HỆ THỐNG ---
 st.set_page_config(page_title="Potato Forecast Pro", page_icon="🥔", layout="wide")
 
-DEFAULT_DATA_PATH = r"E:\random thử nghiệm\hồi quy\Dataset_Optimized_Full_Features.csv"
+DEFAULT_DATA_PATH = "Dataset_Optimized_Full_Features.csv"
 TARGET_COL = 'Yield (Production-Hector M. Ton)'
 
 MODEL_PARAMS = {
